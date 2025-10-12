@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run PMM Pipeline",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "env": {
+        "PMM_FILE1": "${workspaceFolder}/Inputs/Indicadores Tractomula dia 2017 - 2025.xlsx",
+        "PMM_FILE2": "${workspaceFolder}/Inputs/DATOS_SAP_2017-2025.XLSX"
+      }
+    }
+  ]
+}
